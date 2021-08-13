@@ -7,25 +7,27 @@ import "../soccer/css/bootstrap.min.css";
 // import { Link } from "react-router-dom";
 
 // IMAGES -----------------------------------------------------------
-
-import galaryimage22 from "../photos/galaryimage22.jpg";
-import galaryimage15 from "../photos/galaryimage15.jpg";
-import galaryimage16 from "../photos/galaryimage16.jpg";
-import galaryimage17 from "../photos/galaryimage17.jpg";
-import adet11 from "../photos/adet11.JPG";
-import adet10 from "../photos/adet10.JPG";
-import adet25 from "../photos/adet25.jpg";
-import galaryimage18 from "../photos/galaryimage18.jpg";
-import adet23 from "../photos/adet23.jpg";
-import galaryimage19 from "../photos/galaryimage19.jpg";
-import galaryimage20 from "../photos/galaryimage20.jpg";
-import galaryimage21 from "../photos/galaryimage21.jpg";
-import galaryimage5 from "../photos/galaryimage5.jpg";
-import galaryimage6 from "../photos/galaryimage6.jpg";
-import galaryimage7 from "../photos/galaryimage7.JPG";
-import galaryimage8 from "../photos/galaryimage8.jpg";
-import adet14 from "../photos/adet14.JPG";
-import galaryimage10 from "../photos/galaryimage10.jpg";
+import logo from "../soccer/photos/logo.jpeg";
+import soccer27 from "../soccer/photos/soccer27.jpg";
+import soccer1 from "../soccer/photos/soccer1.jpg";
+import soccer2 from "../soccer/photos/soccer2.jpg";
+import soccer3 from "../soccer/photos/soccer3.jpg";
+import soccer4 from "../soccer/photos/soccer4.jpg";
+import soccer5 from "../soccer/photos/soccer5.jpg";
+import soccer6 from "../soccer/photos/soccer6.jpg";
+import soccer7 from "../soccer/photos/soccer7.jpg";
+import soccer8 from "../soccer/photos/soccer8.jpg";
+import soccer9 from "../soccer/photos/soccer9.jpg";
+import soccer10 from "../soccer/photos/soccer10.jpg";
+import soccer11 from "../soccer/photos/soccer11.jpg";
+import soccer12 from "../soccer/photos/soccer12.jpg";
+import soccer13 from "../soccer/photos/soccer13.jpg";
+import soccer14 from "../soccer/photos/soccer14.jpg";
+import soccer15 from "../soccer/photos/soccer15.jpg";
+import soccer16 from "../soccer/photos/soccer16.jpg";
+import soccer17 from "../soccer/photos/soccer17.jpg";
+import soccer18 from "../soccer/photos/soccer18.jpg";
+import soccer19 from "../soccer/photos/soccer19.jpg";
 
 // COMPONENTS --------------------------------------------------
 import Navbar from "../Components/Navbar";
@@ -67,7 +69,7 @@ function LandingPage() {
                 </div>
               </div>
               
-              <div class="item" id="item3">
+              <div class="item" id="item2">
                 <div class="carousel-caption caption">
                   <h1>YOUTH IS A TIME OF PROMISE</h1>
                   <p>
@@ -76,7 +78,7 @@ function LandingPage() {
                 </p>
                 </div>
               </div>
-              <div class="item" id="item4">
+              <div class="item" id="item3">
                 <div class="carousel-caption caption" >
                   <h1>IT'S EVERYONE'S GAME</h1>
                   <p>
@@ -164,7 +166,7 @@ function LandingPage() {
        </p>
       </div>
       <div class="col-md-6"   id="aboutimage">
-       <img src={galaryimage22} class="img-responsive" alt="gallery"/>
+       <img src={soccer27} class="img-responsive" alt="gallery"/>
       </div>
   </div>
  </div>
@@ -177,59 +179,65 @@ function LandingPage() {
 <section  class="container-fluid gallerysection">
 <h2>Featured Gallery</h2>
 <div class="row" id="gallery">
-<a class="example-image-link" href={galaryimage22} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage22} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer27} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer27} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage15} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage15} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer1} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer1} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage16} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage16} alt="BrianAdet"/>
+<a class="example-image-link" href={ soccer2} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={ soccer2} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage17} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage17} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer3} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer3} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={adet11} data-lightbox="example-set">
- <img  width="250" height="200" src={adet11} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer4} data-lightbox="example-set">
+ <img  width="250" height="200" src={soccer4} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={adet10} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={adet10} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer5} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer5} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={adet25} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={adet25} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer6} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer6} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage18} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage18} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer7} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer7} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={adet23} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={adet23} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer8} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer8} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage19} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage19} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer9} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer9} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage20} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage20} alt="BrianAdetBrianAdet"/>
+<a class="example-image-link" href={soccer10} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer10} alt="BrianAdetBrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage21} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage21} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer11} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer11} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage5} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage5} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer12} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer12} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage6} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage6} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer13} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer13} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage7} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage19} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer14} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer14} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage8} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage8} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer15} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer15} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={adet14} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={adet14} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer16} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer16} alt="BrianAdet"/>
 </a>
-<a class="example-image-link" href={galaryimage10} data-lightbox="example-set">
- <img class="dp" width="250" height="200" src={galaryimage10} alt="BrianAdet"/>
+<a class="example-image-link" href={soccer17} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer17} alt="BrianAdet"/>
+</a>
+<a class="example-image-link" href={soccer18} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer18} alt="BrianAdet"/>
+</a>
+<a class="example-image-link" href={soccer19} data-lightbox="example-set">
+ <img class="dp" width="250" height="200" src={soccer19} alt="BrianAdet"/>
 </a>
 </div>
  
@@ -244,7 +252,7 @@ function LandingPage() {
          <section  class="contaner-fluid contacts">       
          <div class="row">
           <div class="col-md-6" id="contactimage">
-            <img src={galaryimage7} alt="contactimage" class="img-responsive" />
+            <img src={logo} alt="contactimage" class="img-responsive" />
            </div>
             
                <div class="col-md-6"   style={{padding:"0px 5px 0px 10px", color:"#ffffff"}}>
