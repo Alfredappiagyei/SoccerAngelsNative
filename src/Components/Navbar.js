@@ -22,7 +22,7 @@ function Navbar() {
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul className="nav navbar-nav navbar-right">
                  <li>  <Link to="#" class="js--scroll-to-about">About</Link></li>
-                 <li> <Link to="#" class="js--scroll-to-gallery">Gallery</Link></li>
+                 <li> <Link to="/gallery" class="js--scroll-to-gallery">Gallery</Link></li>
                  <li>  <Link to="/contacts" class="js--scroll-to-contacts">Contacts</Link></li>
                  <li> <Link to="#" class="js--scroll-to-sponsors">Sponsors</Link></li>
                </ul>

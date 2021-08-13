@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar";
 class Contacts extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="Contacts">
                 <div>
                     <Navbar />
                 </div>
