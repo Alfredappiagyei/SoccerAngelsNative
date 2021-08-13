@@ -17,10 +17,10 @@ function Footer() {
                <div className="hr"></div>
            
             <div className="row"> 
-            <span><a ><i className="fab fa-youtube"></i> </a></span> 
-                <span><a ><i className="fab fa-twitter"></i> </a></span> 
+            <span><a href="#"><i className="fab fa-youtube"></i> </a></span> 
+                <span><a href="#"><i className="fab fa-twitter"></i> </a></span> 
                 <span><a href="https://web.facebook.com/brianadetsoccerfoundation/photos/?ref=page_internal"><i class="fab fa-facebook"></i></a></span> 
-                <span><a ><i className="fab fa-instagram"></i></a></span>   
+                <span><a href="#"><i className="fab fa-instagram"></i></a></span>   
             </div>             
               </div>             
         </footer>

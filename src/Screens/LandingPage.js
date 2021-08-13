@@ -244,7 +244,7 @@ function LandingPage() {
          <section  class="contaner-fluid contacts">       
          <div class="row">
           <div class="col-md-6" id="contactimage">
-            <img src={galaryimage7} class="img-responsive" />
+            <img src={galaryimage7} alt="contactimage" class="img-responsive" />
            </div>
             
                <div class="col-md-6"   style={{padding:"0px 5px 0px 10px", color:"#ffffff"}}>
